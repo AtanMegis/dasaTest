@@ -1,16 +1,13 @@
-import StudentForm from "./components/StudentForm.jsx"
+import StudentForm from "./components/StudentForm.jsx";
 
 function App() {
-  return (
-    <>
-
-      <div className="flex flex-col justify-center items-center bg-cyan-300">
-        <StudentForm />
-      </div>
-
-
-    </>
-  )
+	return (
+		<>
+			<div className="flex flex-col  items-center bg-cyan-300 h-screen">
+				<StudentForm />
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;
